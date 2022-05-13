@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="icon" href="images/favicon.png" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Tabela Verdade</title>
+    <!-- CSS externo -->
+    <link rel="stylesheet" href="css/styles.css" />
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=k0mONJhjhzuU8Cp_2vsOJEyCMiy-3JCOC1-DT2UK7WXs_tF0nJL1tEt-3WPjrxZS8D1gOWsKodP9CPrAAhh4_E-EwpUWcIdofFhsnpLsAVYSLYD9iwyzVY-4LdMri7xonfJkn90G9Ms-iLV8ByRErutXvyptJ_WxfiR7Bhk4Oco_Ys2RQPXTAu57xdKcSE6ufrwm1frvJkPRTPjd0ppauTeuP4wYgGLlZT71VWymtYT_vyEtMrKh3MKt7UE2w9Jwt8-U2G1Qo6XhrlC9xbJfiZ1HcsSyZ8es0WGV31tLY7ERysAwrIZ3qOoFOMYcpGE2TCIkeGCPd5IGtLZBV-_UjDMQ9mKDFgGCqFPvz1v__w66MEMwt5PX8K9t1od8TQ0bWijH9U-d5nkSeQuamDQZ8Wll8zOvLOlkkEIqAWpwVseL_HRhvFjHT9qTbcn9MpJb0FBUOryMLfNVAY2WFS-VV0lkulz16wOzaz5JbSvC1W6DdZKc9KvwRGmBNOUV5hzGzCp9ghNgCWI_V_dF0hxsDNW-EwVbXwI5IqPqnuYPWh_nXkhCHqJDeBDcjbB2Po7fgRFvmmZU-Yh00jgTDqgGuWNlC9moBNoPzxsGdpqGuIxOTcs19wY_l3w2GzACrJg6uAfcNJmEAnYuigRkj1WN1Ripe1DnixASi4QiwGHFnlOWW-2RvDLapoEG1oDJ6gZeQz6XQ1FJQotmmEVudCQDqoZ0_Wn63t_b9VuMhXFmO7AjjjkCF-Dm4I0BjYSJSH5KDSooz2kpMLjaZtVouOMKgIA9U8_cn7zyP7X_Fvq5pc1umK4kt7V6n11oxatZyrijTBaXZkrZO0AqUIAU1OCxvIUlV8BF540T893QEfhO3ILZlVI5OallXa02_4WonBT7DgFk3mcu-mNI2BNFhg0nXU3UpGloQAl0f3amHlhk7DQyBeuzMtwJRXI-s5bCxIb7MaMRuP5xIy5V1n17HdmhGCwHsMDErarH-4RjJFR1JUu8XETfLgM7OJ2igA1XuqeXZO88sK_xFLJCTzihXT_4bol5JWzFY7LU0q7wDYBTMq0XyERbPk4vC5CSmJS4tugkhiiw-j3g7ATzV4FFROnKyY71GmcMLFp_guHfC_9vnIOgs5aFBp2eJ0knw4yGJ2lrHQWQnCSOrYftavag2ApUdivXchMzK4bEb96HyqzBJGD_-fUNDnRdUaNDJiFxigdohWQ5EfejcQ2BanTPi0rzUNpJQj9MUYsp6n_vvmjg0Ig331FonH-SSS0GjQ3olmIh44orMP8ZZdFwNIB2misV4zU4pHMxOgXKPys95P7GCvrrT7JhbezslW4tvGXUoveZ3H9xTfhtxO3NP7p9VefeOkzPV3eBfM6xLscoze__WqdLZMmq6LKhDm_8ag5imWtP" charset="UTF-8"></script></head>
+<body>
+
+    <main class="tela-principal">
+
+        <section class='conteudos'>
+
+            <h1>Quiz Tabela-Verdade</h1>
+
+            <article class='centro' id='instrucoes'>
+                Leia a questão e clique na resposta correta
+            </article>
+
+            <article class='questoes'>
+                
+                <header class='questao'>
+                    <span id='numQuestao'></span>
+                    <h2 id='pergunta'></h2>
+                </header>
+
+                <div class='corpo'>
+                    <ol type='A' id='alternativas'>
+                        <li id='a' value='1A' class='respostas' onClick='verificarSeAcertou(this, this)'></li>
+                        <li id='b' value='1B' class='respostas' onClick='verificarSeAcertou(this, this)'></li>
+                        <li id='c' value='1C' class='respostas' onClick='verificarSeAcertou(this, this)'></li>
+                        <li id='d' value='1D' class='respostas' onClick='verificarSeAcertou(this, this)'></li>
+                        <li id='e' value='1E' class='respostas' onClick='verificarSeAcertou(this, this)'></li>
+                    </ol>
+                </div>
+            </article>
+
+            <article class='feedback'>
+                <header class='borderFeedback'>
+                    <h2 id='feedbackMessage'></h2>
+                </header>
+            </article>
+            
+            <article id='aviso'>Questão <span id='numero'></span> de <span id='total'></span></article>
+            
+        </section>
+
+        <footer id="copy">Desenvolvido por João Pedro Karpinski &copy; 2022</footer>
+    </main>
+
+<!-- JS externo -->
+<script src="js/quiz.js"></script>
+
+</body>
+</html>
