@@ -69,24 +69,24 @@ const q3 = {
 
 const q4 = {
     numQuestao   : 4,
-    pergunta     : "xxxxxxx",
-    alternativaA : "x",
-    alternativaB : "x",
-    alternativaC : "x",
-    alternativaD : "x",
-    alternativaE : "x",
-    correta      : "x",
+    pergunta     : "Qual o aviso mostrado quando uma página web tem o acesso proibido (erro de resposta HTTP)?",
+    alternativaA : "200",
+    alternativaB : "403",
+    alternativaC : "404",
+    alternativaD : "500",
+    alternativaE : "501",
+    correta      : "403",
 }
 
 const q5 = {
     numQuestao   : 5,
-    pergunta     : "xxxxxxx",
-    alternativaA : "x",
-    alternativaB : "x",
-    alternativaC : "x",
-    alternativaD : "x",
-    alternativaE : "x",
-    correta      : "x",
+    pergunta     : "NÃO é uma vantagem em utilizar SPL (Software Product Line):",
+    alternativaA : "Redução dos Custos de Desenvolvimento",
+    alternativaB : "Investimento up-front",
+    alternativaC : "Aumento da Qualidade",
+    alternativaD : "Qualidade melhorada através do reuso",
+    alternativaE : "Ciclos de desenvolvimento mais longos",
+    correta      : "Ciclos de desenvolvimento mais longos",
 }
 
 // CONSTANTE COM UM ARRAY DE OBJETOS COM TODAS AS QUESTOES
